@@ -1,0 +1,103 @@
+.logoAmazon{
+    background-color: rgb(5 3 18 / 80%)
+
+}
+img{
+    width: 100px;
+    padding: 1vw;
+}
+nav{
+    background-color:rgb(5 3 18 / 70%) ;
+    color: white;
+    
+  
+}
+.orangebar{
+    background-color: orangered;
+    text-align: center;
+    width: 100%;
+   
+    color: wheat;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.orangebar p {
+    padding: 10px;
+    
+}
+
+nav p{
+    display: inline;
+    padding: 10px;
+}
+.firstimage {
+    width:97% ;
+    height:170px; 
+    background-image: url(../assets/bg-image.png);
+    text-align: center;
+    padding: 20px;
+    color: white
+}
+
+body{
+    background-color:rgb(216, 216, 216);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#fourimages{
+background-color: white;
+
+}
+
+#fourimages h3,h4{
+    display: inline;
+    padding: 10px;
+} 
+#fourimages img {
+    border-radius: 40px 40px 40px 40px;
+ width: 300px;
+ height: 300px;
+    display: inline;
+ 
+    
+}
+
+.secondimages img{
+    width: 100%;
+}
+.secondimages p{
+    display: inline;
+    text-align: center;
+ 
+  
+}
+h4{
+    color: teal;
+}
+.Amazon{
+    background-color: rgb(5 3 18 / 80%);
+    text-align: center;
+    height: 150px;
+}
+.logo2{
+    width: 150px;
+   margin-top: 50px;
+}
+.footer{
+    text-align: center;
+    background-color:rgb(5 3 18 / 70%) ;
+ 
+} 
+footer a{
+   color: white; 
+}
+.scritte{
+    color: teal;
+   
+}
+.centro{
+    margin-left: 40%;
+}
+.centro2{
+    margin-left: 37%; 
+}

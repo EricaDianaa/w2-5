@@ -58,16 +58,6 @@ cars.forEach(function(oggetto){
 
 console.log(cars);
 
-//let licencePlate="GH4UB43"
-//for(let i=0;i<cars.length;i++){
- // }
-  
-
-//if(cars!=="trims"){
- // cars.push(licencePlate)
-//}
-//cars.push(licencePlate)
-
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
@@ -91,9 +81,17 @@ cars.delete
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
 const justTrims = []
-for (let i=0;i<cars.length;i++){
-  console.log(cars[i].trims);
+
+
+if(cars.trims!=="b"){
+  justTrims.push(cars.trims)
+  console.log(justTrims);
 }
+else {
+  console.log("ERRORE")
+}
+
+
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
@@ -125,3 +123,98 @@ console.log(numericArray)
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"]
+for (let i = 0; i < charactersArray.length; i++) {
+
+  
+
+switch (charactersArray[i]) {
+  case "a":
+    console.log("1")
+
+    break;
+    case "b":
+      console.log("2")
+
+    break;
+    case "c":
+      console.log( "3")
+
+    break;
+    case "d":
+      console.log("4")
+
+    break;
+    case "e":
+      console.log("5")
+
+    break;
+    case "f":
+      console.log("6")
+
+    break;
+    case "g":
+console.log("7")
+
+    break;
+    case "h":
+      console.log("8")
+
+    break;
+    case "i":
+      console.log("9")
+
+    break;
+    case "l":
+      console.log("10")
+
+    break;
+    case "m":
+      console.log("11")
+
+    break;
+    case "n":
+      console.log("12")
+
+    break;
+    case "o":
+      console.log("13")
+
+    break;
+      case "p":
+        console.log("14")
+
+      break;
+      case "q":
+        console.log("15")
+
+      break;
+      case "r":
+        console.log("16")
+
+      break;
+      case "s":
+        console.log("17")
+
+      break
+      case "t":
+        console.log("18")
+
+      break;
+      case "u":
+        console.log("19")
+
+      break;
+      case "v":
+        console.log("20")
+
+      break;
+      case "z":
+        console.log("21")
+
+      break;
+
+  default:
+    break; 
+     
+}
+}
